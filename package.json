@@ -2,7 +2,12 @@
   "name": "vercel-mercury-api",
   "version": "1.0.0",
   "main": "api/parser.js",
+  "scripts": {
+    "start": "node api/parser.js"
+  },
   "dependencies": {
-    "@postlight/mercury-parser": "^2.2.0"
+    "@postlight/mercury-parser": "^2.2.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }
